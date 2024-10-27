@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    background-color: black;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    flex-direction: column;
+    gap: 1em;
+}
+
+span{
+    color: white;
+    font-size: 8em;
+    font-family: sans-serif;
+    font-weight: 1000
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    flex-direction: row;
+    gap: 3em;
+}
+button:nth-child(2){
+    text-align: center;
+    padding: 0.3em 1.5em;
+    color: black;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 1000;
+    background-color: green;
+    border: 2px solid green;
+    cursor: pointer;
+}
+button{
+    text-align: center;
+    padding: 0.3em 1.5em;
+    color: black;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 1000;
+    background-color: red;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+button:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid red;
+}
+button:nth-child(2):hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid green;
+}
+
+#clear{
+    text-align: center;
+    position: absolute;
+    top: 68%;
+    left: 49.5%;
+    transform: translate(-50% , -50%);
+    padding: 0.3em 1.5em;
+    color: black;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 1000;
+    background-color: grey;
+    border: 2px solid grey;
+    cursor: pointer;
+}
+
+#clear:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid grey;
+}
